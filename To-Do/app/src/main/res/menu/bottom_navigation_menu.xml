@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_page"
+        android:title="Main"
+        android:icon="@drawable/outline_home_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/Important_page"
+        android:title="Important"
+        android:icon="@drawable/important_tasks"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/missed_page"
+        android:title="Missed"
+        android:icon="@drawable/overdue_task"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/completed_page"
+        android:title="Completed"
+        android:icon="@drawable/completed_task"
+        app:showAsAction="ifRoom"/>
+
+</menu>
